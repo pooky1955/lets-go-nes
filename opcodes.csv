@@ -1,0 +1,60 @@
+opcode, name, flags
+LDA, Load Accumulator, NZ
+LDX, Load X Register, NZ
+LDY, Load Y Register, NZ
+STA, Store Accumulator,
+STX, Store X Register,
+STY, Store Y Register,
+TAX, Transfer accumulator to X, NZ
+TAY, Transfer accumulator to Y, NZ
+TXA, Transfer X to accumulator, NZ
+TYA, Transfer Y to accumulator, NZ
+TSX, Transfer stack pointer to X, NZ
+TXS, Transfer X to stack pointer,
+PHA, Push accumulator on stack,
+PHP, Push processor status on stack
+PLA, Pull accumulator from stack, NZ
+PLP, Pull processor status from stack, All
+AND, Logical AND, NZ
+EOR, Exclusive OR, NZ
+ORA, Logical Inclusive OR, NZ
+BIT, Bit Test, NVZ
+ADC, Add with Carry, NVZC
+SBC, Subtract with Carry, NVZC
+CMP, Compare accumulator, NVZC
+CPX, Compare X Register, NVC
+CPY, Compare Y Register, NZC
+INC, Increment a memory location, NZ
+INX, Increment the X register, NZ
+INY, Increment the Y register, NZ
+DEC, Decrement a memory location, NZ
+DEX, Decrement the X register, NZ
+DEY, Decrement the Y register, NZ
+ASL, Arithmetic Shift Left, NZC
+LSR, Logical Shift Right, NZC
+ROL, Rotate Left, NZC
+ROR, Rotate Right, NZC
+JMP, Jump to another location,
+JSR, Jump to a subroutine,
+RTS, Return from subroutine,
+BCC, Branch if carry flag clear
+BCS, Branch if carry flag set,
+BEQ, Branch if zero flag set,
+BMI, Branch if negative flag set,
+BNE, Branch if zero flag clear,
+BPL, Branch if negative flag clear,
+BVC, Branch if overflow flag clear,
+BVS, Branch if overflow flag set
+CLC, Clear carry flag, C
+CLD, Clear decimal mode flag, D
+CLI, Clear interrupt disable flag, I
+CLV, Clear overflow flag, V
+SEC, Set carry flag, C
+SED, Set decimal mode flag
+SEI, Set interrupt disable flag, I
+BRK, Force an interrupt, B
+NOP, No operation,
+RTI, Return from Interrupt, All
+
+
+

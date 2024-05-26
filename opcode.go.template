@@ -1,0 +1,391 @@
+
+// OpLDA executes the LDA instruction (Load Accumulator). Flags: N, Z
+func (c *CPU) OpLDA() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpLDX executes the LDX instruction (Load X Register). Flags: N, Z
+func (c *CPU) OpLDX() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpLDY executes the LDY instruction (Load Y Register). Flags: N, Z
+func (c *CPU) OpLDY() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpSTA executes the STA instruction (Store Accumulator). 
+func (c *CPU) OpSTA() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpSTX executes the STX instruction (Store X Register). 
+func (c *CPU) OpSTX() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpSTY executes the STY instruction (Store Y Register). 
+func (c *CPU) OpSTY() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpTAX executes the TAX instruction (Transfer accumulator to X). Flags: N, Z
+func (c *CPU) OpTAX() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpTAY executes the TAY instruction (Transfer accumulator to Y). Flags: N, Z
+func (c *CPU) OpTAY() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpTXA executes the TXA instruction (Transfer X to accumulator). Flags: N, Z
+func (c *CPU) OpTXA() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpTYA executes the TYA instruction (Transfer Y to accumulator). Flags: N, Z
+func (c *CPU) OpTYA() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpTSX executes the TSX instruction (Transfer stack pointer to X). Flags: N, Z
+func (c *CPU) OpTSX() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpTXS executes the TXS instruction (Transfer X to stack pointer). 
+func (c *CPU) OpTXS() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpPHA executes the PHA instruction (Push accumulator on stack). 
+func (c *CPU) OpPHA() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpPHP executes the PHP instruction (Push processor status on stack). 
+func (c *CPU) OpPHP() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpPLA executes the PLA instruction (Pull accumulator from stack). Flags: N, Z
+func (c *CPU) OpPLA() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpPLP executes the PLP instruction (Pull processor status from stack). Flags: All
+func (c *CPU) OpPLP() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpAND executes the AND instruction (Logical AND). Flags: N, Z
+func (c *CPU) OpAND() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpEOR executes the EOR instruction (Exclusive OR). Flags: N, Z
+func (c *CPU) OpEOR() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpORA executes the ORA instruction (Logical Inclusive OR). Flags: N, Z
+func (c *CPU) OpORA() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpBIT executes the BIT instruction (Bit Test). Flags: N, V, Z
+func (c *CPU) OpBIT() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpADC executes the ADC instruction (Add with Carry). Flags: N, V, Z, C
+func (c *CPU) OpADC() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpSBC executes the SBC instruction (Subtract with Carry). Flags: N, V, Z, C
+func (c *CPU) OpSBC() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpCMP executes the CMP instruction (Compare accumulator). Flags: N, V, Z, C
+func (c *CPU) OpCMP() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpCPX executes the CPX instruction (Compare X Register). Flags: N, V, C
+func (c *CPU) OpCPX() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpCPY executes the CPY instruction (Compare Y Register). Flags: N, Z, C
+func (c *CPU) OpCPY() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpINC executes the INC instruction (Increment a memory location). Flags: N, Z
+func (c *CPU) OpINC() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpINX executes the INX instruction (Increment the X register). Flags: N, Z
+func (c *CPU) OpINX() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpINY executes the INY instruction (Increment the Y register). Flags: N, Z
+func (c *CPU) OpINY() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpDEC executes the DEC instruction (Decrement a memory location). Flags: N, Z
+func (c *CPU) OpDEC() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpDEX executes the DEX instruction (Decrement the X register). Flags: N, Z
+func (c *CPU) OpDEX() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpDEY executes the DEY instruction (Decrement the Y register). Flags: N, Z
+func (c *CPU) OpDEY() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpASL executes the ASL instruction (Arithmetic Shift Left). Flags: N, Z, C
+func (c *CPU) OpASL() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpLSR executes the LSR instruction (Logical Shift Right). Flags: N, Z, C
+func (c *CPU) OpLSR() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpROL executes the ROL instruction (Rotate Left). Flags: N, Z, C
+func (c *CPU) OpROL() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpROR executes the ROR instruction (Rotate Right). Flags: N, Z, C
+func (c *CPU) OpROR() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpJMP executes the JMP instruction (Jump to another location). 
+func (c *CPU) OpJMP() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpJSR executes the JSR instruction (Jump to a subroutine). 
+func (c *CPU) OpJSR() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpRTS executes the RTS instruction (Return from subroutine). 
+func (c *CPU) OpRTS() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpBCC executes the BCC instruction (Branch if carry flag clear). 
+func (c *CPU) OpBCC() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpBCS executes the BCS instruction (Branch if carry flag set). 
+func (c *CPU) OpBCS() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpBEQ executes the BEQ instruction (Branch if zero flag set). 
+func (c *CPU) OpBEQ() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpBMI executes the BMI instruction (Branch if negative flag set). 
+func (c *CPU) OpBMI() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpBNE executes the BNE instruction (Branch if zero flag clear). 
+func (c *CPU) OpBNE() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpBPL executes the BPL instruction (Branch if negative flag clear). 
+func (c *CPU) OpBPL() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpBVC executes the BVC instruction (Branch if overflow flag clear). 
+func (c *CPU) OpBVC() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpBVS executes the BVS instruction (Branch if overflow flag set). 
+func (c *CPU) OpBVS() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpCLC executes the CLC instruction (Clear carry flag). Flags: C
+func (c *CPU) OpCLC() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpCLD executes the CLD instruction (Clear decimal mode flag). Flags: D
+func (c *CPU) OpCLD() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpCLI executes the CLI instruction (Clear interrupt disable flag). Flags: I
+func (c *CPU) OpCLI() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpCLV executes the CLV instruction (Clear overflow flag). Flags: V
+func (c *CPU) OpCLV() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpSEC executes the SEC instruction (Set carry flag). Flags: C
+func (c *CPU) OpSEC() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpSED executes the SED instruction (Set decimal mode flag). 
+func (c *CPU) OpSED() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpSEI executes the SEI instruction (Set interrupt disable flag). Flags: I
+func (c *CPU) OpSEI() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpBRK executes the BRK instruction (Force an interrupt). Flags: B
+func (c *CPU) OpBRK() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpNOP executes the NOP instruction (No operation). 
+func (c *CPU) OpNOP() error {
+    panic("not implemented")
+    return nil
+}
+
+
+// OpRTI executes the RTI instruction (Return from Interrupt). Flags: All
+func (c *CPU) OpRTI() error {
+    panic("not implemented")
+    return nil
+}
